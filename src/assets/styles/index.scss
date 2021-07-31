@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@keyframes i358xd{
+0%{
+  margin-top:5px;
+}
+10%{
+  margin-top:10px;
+}
+20%{
+  margin-top:15px;
+}
+30%{
+  margin-top:20px;
+}
+40%{
+  margin-top:25px
+
+}
+50%{
+  margin-top:20px;
+}
+60%{
+  margin-top:15px;
+}
+70%{
+  margin-top:10px;
+}
+80%{
+  margin-top:5px;
+}
+100%{
+  margin-top:0;
+}
+}
+
+@keyframes i358v2xd{
+0%{
+  top:5px;
+}
+10%{
+  top:10px;
+}
+20%{
+  top:15px;
+}
+30%{
+  top:20px;
+}
+40%{
+  top:25px
+
+}
+50%{
+  top:20px;
+}
+60%{
+  top:15px;
+}
+70%{
+  top:10px;
+}
+80%{
+  top:5px;
+}
+100%{
+  top:0;
+}
+}
+@media (min-width:1024px){
+ html{ overflow:hidden}
+ .mediaview{
+     zoom: 0.9;
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+ }
+}
+@media (max-width:800px){
+  .mediaview{
+     zoom: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  #caption{
+
+    @apply grid place-items-center mt-[2rem] pl-[0rem] pr-[0rem];
+  }
+  #grid-home{
+    @apply grid-cols-[auto] gap-[250px];
+  }
+  #padding1-home{
+    @apply p-[0rem] pt-[0rem];
+    h1{
+      @apply flex justify-center gap-[15px];
+    }
+  }
+  #accounts-router{
+    @apply flex justify-center items-center;
+  }
+  #presence{
+    @apply pl-[0] pt-[0] ml-[5px];
+  }
+  #text-home{
+    @apply w-[350px] pr-[11px] text-[20px] ml-[15px] flex items-center justify-center;
+  }
+}
+
+body {
+     
+   background: url(./assets/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  .index111 {
+    z-index: 1111111;
+  }
+  font-family: "Rubik";
+  .item {
+    @apply hover:text-[#ff4a57] hover:cursor-pointer transition-all delay-[50ms];
+  }
+
+  .router-link-exact-active {
+    @apply text-[#ff4a57];
+  }
+  .slither-enter-active,
+  .slither-leave-active {
+    transition: transform 0s;
+  }
+
+  .slither-enter,
+  .slither-leave-to {
+    transform: translateX(-100%);
+  }
+
+  .slither-enter-to,
+  .slither-leave {
+    transform: translateX(0);
+  }
+
+}
