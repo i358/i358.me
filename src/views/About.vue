@@ -10,11 +10,11 @@
 Who doesn't need to listen to good music after 2 hours of quiet and boring work? Hey, grab 2 drinks from there and come over! How about making some music and then listening to it? Don't have time, can't find something suitable for your musical taste? Grab your freshly squeezed space drink now and come to me :)" />
         <Card icon="fa fa-book-dead" title="Death Note" content="I'm no different than a toy with an unlimited battery but a broken battery bed. The rule mentioned in article 358 of alien rights is that you can never give up in space, time keeps flowing and even when you give up, you rewind and try again. If you feel like a broken toy, a dying seagull, a drowning fish (this really unusual) you need to change some things. Always try again, there will be a day. Y-yes... Yes, you can leave this as a death note, dear postman, give my regards." />
       </div>
-    </div>
-  </div> 
-</template> 
-
-<script>
+    </div>      
+  </div>  
+</template>    
+ 
+<script> 
 import PreLoader from '@/components/PreLoader.vue'
 import { vueTopprogress } from 'vue-top-progress'
 import { get, post } from 'axios'
@@ -23,7 +23,7 @@ import Card from '@/components/Card.vue'
 export default {
   mounted(){
     this.$refs.topProgress.start() 
-   get("/", {})     
+   get("/", {})      
     .then((data)=>{
       this.$refs.topProgress.done()
     })
