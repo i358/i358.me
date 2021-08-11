@@ -60,7 +60,7 @@ Dağıtım için hazırladıktan sonra siteyi aktif etmek için aşağıdaki yö
 
 - Siteyi uzak sunucuda çalıştırma
 ```sh
-  $ serve -s dist -p 80
+$ serve -s dist -p 80
 ```
 - Siteyi ücretsiz dağıtım sitelerinde çalıştırma. 
 *(Aşağıdaki bağlantılardan birine tıklayarak siteyi nasıl ücretsiz servisler üzerinde dağıtacağınızı öğrenebilirsiniz)*
