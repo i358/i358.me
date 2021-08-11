@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.47477f64cb8c975480ba0fb9baba3e29.js"
+  "/precache-manifest.24b914285d9a141c9d5f6184d1b55e3b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "xss2"});
