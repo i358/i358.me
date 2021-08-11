@@ -62,7 +62,7 @@ Dağıtım için hazırladıktan sonra siteyi aktif etmek için aşağıdaki yö
 ```sh
 $ serve -s dist -p 80
 ```
-- Siteyi ücretsiz dağıtım sitelerinde çalıştırma. 
+- Projeyi ücretsiz depolama servislerinde çalıştırma 
 *(Aşağıdaki bağlantılardan birine tıklayarak siteyi nasıl ücretsiz servisler üzerinde dağıtacağınızı öğrenebilirsiniz)*
   
   [![App Icon](https://badges.netlify.com/api/i358.svg?branch=master
