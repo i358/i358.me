@@ -3,7 +3,7 @@
 
 Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir kişisel site projesi. Eğer beğenirseniz starlayabilir ve kullanmak isterseniz fork edebilirsiniz.
 
-[![Screenshot](https://github.com/i358/i358.me/blob/main/screenshot.png?raw=true)](https://i358.me)
+[![Screenshot](https://github.com/i358/i358.me/raw/master/screenshot.png)](https://i358.me)
 ## Özellikler
 
 - Gerçek zamanlı durum güncellemeleri.
