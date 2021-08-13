@@ -1,0 +1,16 @@
+{
+    "statusAltBadge": "bg-[#191b23] left-[10px] top-[10px] rounded-[90%] absolute h-[8px] w-[8px] lg:h-[9px] lg:w-[9px] rounded-[90%]",
+    "statusColor": "background:hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)",
+    "tag": "",
+    "id": "453336745967091722",
+    "name":"358",
+    "spotify": {},
+    "discord_status": "",
+    "username": "",
+    "bio": "Yaklaşık 3 yıldır yazılımla uğraşmaktayım. Bu süreç içinde bir çok web sitesi, uygulama, teknoloji v.s geliştirdim ve geliştirmeye devam ediyorum. Genellikle kullandığım teknolojiler ise Vue, React, Vite, NativeScript ve TailwindCSS. Geliştirdiğim çoğu projeyi <a class='link-item' href='https://github.com/i358'>Github</a> hesabımda paylaşıyorum, eğer işinize yarayan bir şey olursa fork edebilir ve starlayabilirsiniz. ",
+    "status": "",
+    "avatarURL": "",
+    "presence": {},
+    "sitename":"i358",
+    "domain":"me"
+}    
