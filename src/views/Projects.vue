@@ -1,6 +1,6 @@
 <template>
 <div>
-    {{cache.filter(n=>n.t==="test")}}
+    {{cache.filter(n=>n.t==="test").val}}
 </div>
 </template>
 <script>
