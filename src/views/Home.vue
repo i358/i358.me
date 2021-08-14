@@ -8,7 +8,7 @@
       <h1 class="mt-[50px] mb-[25px] text-white font-bold text-[45px]" style="font-family:Curly">Merhaba, ben <font color="#ff4a57"> 358. </font></h1>
       <p id="text-home" class="text-[18px] text-white mb-[50px] w-[630px]" v-html="bio">
  </p>
-<a href="https://github.com/i358/i358.me" class="w-[171px] font-medium h-[55px] pt-[13px] text-[15px] pb-[13px] pl-[40px] pr-[40px] rounded-[50px] border-[#ff4a57] border-2 hover:bg-[#ff4a57] text-white" style="transition: .3s ease;">Github'da görüntüle.</a>
+<a href="https://github.com/i358/i358.me" id="v-to-github" class="w-[171px] font-medium h-[55px] pt-[13px] text-[15px] pb-[13px] pl-[40px] pr-[40px] rounded-[50px] border-[#ff4a57] border-2 hover:bg-[#ff4a57] text-white" style="transition: .3s ease;">Github'da görüntüle.</a>
     </div>
   <Presence />
 

@@ -4,6 +4,7 @@
    <Stars />
     <Keypress key-event="keyup" @any="keyControl" />
     <div
+    id="main"
     class="h-screen text-[#dad7d7] grid grid-rows-[100px,auto] lg:text-[16px] text-[1.6rem]"
      >
     <Navbar />

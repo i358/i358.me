@@ -12,33 +12,45 @@
  }
 }
 @media (max-width:800px){
+
   .mediaview{
+   
      zoom: 1;
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+  #main{
+    @apply grid grid-rows-[90px,auto];
+  }
+  #navbar{
+    @apply w-[max-content];
+  }
   #caption{
-
-    @apply grid place-items-center mt-[2rem] pl-[0rem] pr-[0rem];
+    @apply grid items-center w-[max-content] mt-[0rem] pl-[0rem] pt-[0] pr-[0rem];
+  }
+  #v-to-github{
+    @apply ml-[15px];
   }
   #grid-home{
-    @apply grid-cols-[auto] gap-[250px];
+    @apply grid grid-cols-[auto] w-[max-content] gap-[250px];
   }
   #padding1-home{
-    @apply p-[0rem] pt-[0rem];
+   @apply pl-[0];
     h1{
-      @apply flex justify-center gap-[15px];
+      @apply text-[1.6em] w-[max] gap-[15px];
+      text-align:center;
     }
   }
   #accounts-router{
     @apply flex justify-center items-center;
   }
   #presence{
-    @apply pl-[0] pt-[0] ml-[5px];
+   @apply pl-[0] w-[90%];
   }
   #text-home{
-    @apply w-[350px] pr-[11px] text-[20px] ml-[15px] flex items-center justify-center;
+    @apply w-[380px] text-[20px] ml-[15px]; 
+
   }
 }
 
