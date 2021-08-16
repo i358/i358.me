@@ -1,4 +1,7 @@
 {
+    "//":"Değerli dostlarım, ne işe yaradığı hakkında hiçbir fikrinizin olmadığı dosyaları elleyip sonra bu niye çalışmıyo amk diye sormayın tamam mı, README dosyasına gerekli configleri koydum siz sadece onları düzenleyin yoksa ekranda gördüğünüz anlamsız matematik işlemlerine benzeyen renkler ve şekillerden başka bir şey olmayacaktır.",
+    "//2":"Tabii isterseniz yukarda yazdığımı deneyebilirsiniz ve sonucu da görebilirsiniz, ancak projenin tek kopyası şu an elinizdeki ise denemeyin yoksa ölümle sonuçlanabilir.",
+    "//3":"Tek gerçek hesabım (ig) : 358.xd diğer hesaplarımın benim olduğumdan ben de emin değilim ara sıra çalınıyolar, sorgulamazsanız güzel olur.",
     "statusAltBadge": "bg-[#191b23] left-[10px] top-[10px] rounded-[90%] absolute h-[8px] w-[8px] lg:h-[9px] lg:w-[9px] rounded-[90%]",
     "statusColor": "background:hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)",
     "tag": "",
@@ -12,5 +15,6 @@
     "avatarURL": "",
     "presence": {},
     "sitename":"i358",
-    "domain":"me"
+    "domain":"me",
+    "navbarBrandStatus":"close"
 }    
