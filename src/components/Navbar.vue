@@ -1,6 +1,6 @@
 <template>
 <div :id="navbarBrandStatus">
-<div id="navbar" class="lg:p-[10px] rounded-[15px] m-[20px] p-[0] w-[100%] flex justify-center items-center" style="z-index: 77;">
+<div id="navbar" class="lg:p-[10px] rounded-[15px] m-[20px] p-[0] w-[100%] flex justify-center items-center" style="z-index: 77; position:fixed;">
    <div class="container pl-[3rem] pr-[1rem] flex flex-1 gap-2 items-center">     
       <svg  @click="navbarBrandStatusControl" id="brand" class="rounded-[5px]" width="25" height="25" style="border:1px solid white;" viewBox="0 0 448 512"><path fill="currentColor" d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"></path></svg>
       
