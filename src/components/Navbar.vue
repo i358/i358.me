@@ -4,12 +4,9 @@
    <div class="container pl-[3rem] pr-[1rem] flex flex-1 gap-2 items-center">     
       <svg id="brand" class="rounded-[5px]" width="25" height="25" style="border:1px solid white;" viewBox="0 0 448 512"><path fill="currentColor" d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"></path></svg>
       
-        <router-link to="/" aria-current="page">
+        <router-link id="logo-brand" to="/" aria-current="page">
          <h1 id="logo" class="font-bold text-white text-3xl w-[max-content]">{{sitename}}<font color="#ff4a57">.{{domain}}</font></h1>
       </router-link>
-      <div class="hidden" id="no_tap"></div>
-      
-      
       <div id="items" class="flex gap-6 pr-[35px] font-semibold text-[18px] justify-end w-full">
          <router-link to="/" class="item" aria-current="page">Anasayfa</router-link>
          <router-link to="/about" class="item ">Hakkımda</router-link>
@@ -50,9 +47,20 @@ export default {
 #brand{display:none;}
 @media (max-width:800px){
        #navbar{
-       padding:0!important;
-        .container{
- grid-template:auto / 8fr auto 9fr;
+           background:#1F2235;
+           border-radius:15px;
+           width:85%!important;
+           left:0;
+           padding:10px;
+          
+           position:fixed;
+            .container{
+                 #logo-brand{
+              
+            
+               width:100%;
+           }
+ grid-template:auto / 3fr 6fr;
   display:grid;
   margin:0;
   
@@ -65,33 +73,43 @@ export default {
           display:none;
       }
     
-       #no_tap{display:block;}
-        #brand{display:block;width:40px;padding:8px;height:35px;}
+        #brand{display:block;width:40px;padding:8px;height:35px;align-items:center;}
     }
     #logo{
         width:100%;
+        
         
     }
   }
   #open{
+      #navbar{
+          .container{
+              
+               grid-gap:5px;
+  display:grid;
+  margin:0;
+  grid-template:auto / 114.5px 2fr!important;
+        padding:0!important;
+        align-items:center;
+          }
+          
+      }
+     
        #items{
           display:inline-block;
           margin-top:15px;
-          padding:0;
-          transition:all 0.5s!important;
+          border-radius:5px;
+          width:100%;
           .item{
               width:100%;
-              padding-bottom:5px;
+              padding:5px;
           }
       }
      
-       #no_tap{display:block;}
-        #brand{display:block;width:40px;padding:8px;height:35px;}
+        #brand{display:block;background:white;color:black;width:40px;padding:8px;height:35px;align-items:center;}
     }
     #logo{
         width:100%;
         
-       
-  
-}
+        }
 </style>
