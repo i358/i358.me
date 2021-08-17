@@ -49,7 +49,7 @@ export default {
     watch:{
         scrollPosition(e){
            if(e>50){
-               this.navbarClass = "";
+               this.navbarClass = "hidden";
            }
         }
     }
