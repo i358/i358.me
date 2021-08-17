@@ -26,6 +26,7 @@ export default {
         return _x;
     },
     mounted(){
+        this.navbarClass = this.defaultNavbarClass;
          window.addEventListener('scroll', this.updateScroll);
     },
     methods:{
@@ -49,7 +50,10 @@ export default {
     watch:{
         scrollPosition(e){
            if(e>50){
-               this.navbarClass = "hidden";
+               this.navbarClass = this.defaultNavbarClass+" bg-[#1F2235]";
+           }
+           if(e<50){
+               this.navbarClass = this.defaultNavbarClass;
            }
         }
     }
