@@ -12,26 +12,21 @@
  }
 }
 body{
-    overflow:scroll;
+  overflow:scroll;
 }
-/* width */
+
 ::-webkit-scrollbar {
-  width: 0;
+  width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  border-radius: 10px;
+  background-color: rgba(25,147,147,0.1);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: transparent;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+   border-radius: 15px;
+  background-color:  rgba(25,147,147,0.2);;
 }
 @media (max-width:800px){
 

@@ -57,7 +57,7 @@ export default {
 )
     .catch((err)=>{console.log(err); this.$refs.topProgress.fail()})
     
-    document.title = "358: Homepage"
+    document.title = this.name+": Homepage"
   },
   data(){
     return _x;

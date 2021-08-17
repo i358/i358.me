@@ -16,6 +16,7 @@
 import PreLoader from '@/components/PreLoader.vue'
 import { vueTopprogress } from 'vue-top-progress'
 import { get, post } from 'axios'
+import x from "../__1.json";
 import Card from '@/components/Card.vue'
 
 export default {
@@ -25,7 +26,10 @@ export default {
     .then((data)=>{
       this.$refs.topProgress.done()
     })
-    document.title="358: About"
+    document.title= this.name+": About"
+  },
+  data(){
+    return x;
   },
   components:{ PreLoader, vueTopprogress, Card }
 };
