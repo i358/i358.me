@@ -1,5 +1,5 @@
 <template>
-   <div class="bg-[#23263a] rounded-[15px] hover:cursor-pointer transition-all delay-[200ms] p-[25px] h-[297px] grid grid-rows-[auto,auto] gap-[15px]" style="z-index:31;">
+   <div class="cardb54 bg-[#23263a] rounded-[15px] hover:cursor-pointer transition-all delay-[200ms] p-[25px] h-[297px] grid grid-rows-[auto,auto] gap-[15px]" style="z-index:31;">
          <div class="grid grid-cols-[max-content,max-content] place-items-center gap-[15px]"> 
            <i :class="ick"></i> 
           <div class="font-bold text-[22px] text-[white]">{{title}}</div>

@@ -3,7 +3,7 @@
      <PreLoader />
     <vue-topprogress color="#ff4a57" ref="topProgress"></vue-topprogress>
     <div id="projects" class="grid gap-[15px] grid-cols-[auto,auto,auto,auto] mediaview">
-    <Card v-for="project in repos" :project="project" :key="project" />
+    <Card class="project" v-for="project in repos" :project="project" :key="project" />
    </div>
 </div>
 </template>
@@ -33,5 +33,14 @@ export default {
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
+@media (max-width:800px){
+  #projects{
+    display:grid;
+    grid-template:auto / auto;
+    .project{
+      height:max-content!important;
+      width:320px!important;
+    }
+  }
+}
 </style>
