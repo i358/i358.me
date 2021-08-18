@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#23263a] w-[340px] h-[250px] rounded-[10px] p-[15px] grid">
+    <div class="bg-[#23263a] w-[340px] h-[220px] rounded-[10px] p-[15px] grid">
         {{project.name}}
     sa
     </div>
