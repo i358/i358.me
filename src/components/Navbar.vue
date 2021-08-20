@@ -10,7 +10,7 @@
       <div id="items" class="flex gap-6 pr-[35px] font-semibold text-[18px] justify-end w-full">
          <router-link to="/" class="item" aria-current="page">Anasayfa</router-link>
          <router-link to="/about" class="item ">Hakkımda</router-link>
-         <router-link to="/projects" class="item fxc">Projeler  <span class="rounded-[5px] pl-[10px] pr-[10px] flex items-center text-white" style="background:#13bc9130;font-size:14px!important;">Demo</span></router-link>
+         <router-link to="/projects" class="item fxc">Projeler  <!--span class="rounded-[5px] pl-[10px] pr-[10px] flex items-center text-white" style="background:#13bc9130;font-size:14px!important;">Demo</span>--></router-link>
          <a href="https://github.com/i358" class="item">Github</a>
       </div>
    </div>
