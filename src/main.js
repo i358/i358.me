@@ -13,4 +13,4 @@ new Vue({
   VuePageTransition,
   vueTopprogress,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app') 
