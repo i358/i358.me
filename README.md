@@ -4,6 +4,7 @@
 Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir kişisel site projesi. Eğer beğenirseniz starlayabilir ve kullanmak isterseniz fork edebilirsiniz.
 
 [![Screenshot](https://github.com/i358/i358.me/raw/master/screenshot.png)](https://i358.me)
+[![Screenshot](https://github.com/i358/i358.me/raw/master/scr2.png)](https://i358.me)
 ## Özellikler
 
 - Gerçek zamanlı durum güncellemeleri.
@@ -21,7 +22,7 @@ Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir 
 | Gölgeler | ![#5e5f6b](https://via.placeholder.com/10/5e5f6b?text=+) #5e5f6b    |
 | Kenarlıklar| ![#e55169](https://via.placeholder.com/10/e55169?text=+) #e55169    | 
 
-## Yükleme ve Kurulum
+## Yükleme ve Kurulum 
 
 Projeyi çalıştırmadan önce yapmanız gereken bir kaç adım var, gerekli modülleri yüklemek ve ayarları yapmak.
 
