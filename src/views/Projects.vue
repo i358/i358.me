@@ -3,7 +3,7 @@
      <PreLoader />
     <vue-topprogress color="#ff4a57" ref="topProgress"></vue-topprogress>
     <div id="projects" class="grid gap-[15px] grid-cols-[auto,auto,auto,auto] mediaview">
-    <Card class="project" v-for="project in repos" :project="project" :key="project" />
+    <Card v-for="project in repos" :project="project" :key="project" />
    </div>
 </div>
 </template>
@@ -22,7 +22,7 @@ export default {
         .then(({ data }) =>{ this.repos = data; this.$refs.topProgress.done() })
         .catch(console.error)
           document.title = this.name+": Projects";
-    },
+    }, 
     data(){
         return _x;
     }, 
@@ -38,8 +38,8 @@ export default {
     display:grid;
     grid-template:auto / auto;
     .project{
-      height:max-content!important;
-      width:320px!important;
+    height:auto!important;
+      width:370px!important;
     }
   }
 }

@@ -17,7 +17,7 @@
     data(){
       return {
         ick:"fa fa-code text-[35px] text-[#ff4a57]"
-      }
+      } 
     },
     created(){
       this.ick = `${this.icon} text-[35px] text-[#ff4a57]`

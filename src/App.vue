@@ -1,6 +1,6 @@
 <template>
+
   <div>
-   
    <Stars />
     <Keypress key-event="keyup" @any="keyControl" />
     <div
