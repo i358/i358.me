@@ -2,14 +2,13 @@
 # Proje Hakkında
 
 Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir kişisel site projesi. Eğer beğenirseniz starlayabilir ve kullanmak isterseniz fork edebilirsiniz.
+Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/i358/i358.me/wiki) göz atın.
 
-[![Screenshot](https://github.com/i358/i358.me/raw/master/screenshot.png)](https://i358.me)
-[![Screenshot](https://github.com/i358/i358.me/raw/master/scr2.png)](https://i358.me)
 ## Özellikler
 
 - Gerçek zamanlı durum güncellemeleri.
 - Hızlı ve az kaynak tüketimine sahip.
-- Diğer cihazlarda uyumlu tasarım **[[Beta]](https://i358.me)**
+- Diğer cihazlarda uyumlu tasarım.
 - Açık kaynak kodlu yazılım.
 
   
