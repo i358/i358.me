@@ -2,7 +2,7 @@
 # Proje Hakkında
 
 Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir kişisel site projesi. Eğer beğenirseniz starlayabilir ve kullanmak isterseniz fork edebilirsiniz.
-Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/i358/i358.me/wiki) göz atın.
+Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/i358/i358.me/wiki/Anasayfa) göz atın.
 
 ## Özellikler
 
