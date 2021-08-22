@@ -4,7 +4,11 @@
 Kendim hakkında bir özet içeren, projelerimin yer aldığı ufak çaplı bir kişisel site projesi. Eğer beğenirseniz starlayabilir ve kullanmak isterseniz fork edebilirsiniz.
 Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/i358/i358.me/wiki/Anasayfa) göz atın.
 
-## Özellikler
+**• Ekran Görüntüsü (v0.8.2)**
+
+![scr](https://github.com/i358/i358.me/raw/master/screenshot.png)
+
+# Özellikler
 
 - Gerçek zamanlı durum güncellemeleri.
 - Hızlı ve az kaynak tüketimine sahip.
@@ -12,7 +16,7 @@ Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/
 - Açık kaynak kodlu yazılım.
 
   
-## Renk Paleti
+# Renk Paleti
 
 | Renk             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------------------ |
@@ -21,7 +25,7 @@ Ekran görüntüleri ve detaylı bilgiler için [bu sayfaya](https://github.com/
 | Gölgeler | ![#5e5f6b](https://via.placeholder.com/10/5e5f6b?text=+) #5e5f6b    |
 | Kenarlıklar| ![#e55169](https://via.placeholder.com/10/e55169?text=+) #e55169    | 
 
-## Yükleme ve Kurulum 
+# Yükleme ve Kurulum 
 
 Projeyi çalıştırmadan önce yapmanız gereken bir kaç adım var, gerekli modülleri yüklemek ve ayarları yapmak.
 
@@ -54,7 +58,7 @@ $ npm install -g @vue/cli serve
 $ npm run build
 ```
 
-## Dağıtım
+# Dağıtım
 
 Dağıtım için hazırladıktan sonra siteyi aktif etmek için aşağıdaki yönergeleri izleyin.
 
@@ -71,11 +75,11 @@ $ serve -s dist -p 80
   [![App Icon](http://therealsujitk-vercel-badge.vercel.app/?app=i358)](https://vercel.com/guides/deploying-vuejs-to-vercel)
 
   
-## Yardım ve Destek
+# Yardım ve Destek
 
 Yardım ve destek için [help@i358.me](mailto:help@i358.me) adresinden bana ulaşabilir veya sosyal medya hesaplarımdan iletişime geçebilirsiniz.
   
 
-## Lisans
+# Lisans
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
